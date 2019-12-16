@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    font-family: 'Signika', sans-serif;
+    color: #777;
+  
+
+}
+
+header {
+
+  text-align: center;
+  background-color: #1d1d1d;
+
+}
+
+
+
+.navbar {
+    float: left;
+   
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-decoration: none;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    border-top: 1px solid blacK;
+    
+}
+    
+
+
+
+.navbar .listitems{
+    list-style: none;
+    overflow: hidden;
+    
+    
+
+}
+li {
+float: left;    
+text-decoration: none;
+}
+
+li.rightside {
+    float: right;
+    font-size: 0.7rem;
+    font-family: 'Signika', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+
+}
+
+
+
+li a {
+    color: #706e6e;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover, li a.active {
+    
+    color: #adb1b3;
+    text-decoration: none;
+}
+.kundkorg {
+  float:right;
+
+}.flex-container {
+    width: 25%;
+    text-decoration: none;
+    color:black;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.7rem; 
+    align-items: center;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    border: 1px solid black;
+    justify-content: space-around;
+    display: block;
+    
+    
+  }
+
+.bildtext{
+    display: flex;
+    width: 100%;
+    
+    
+    border: 1px solid black;
+}
+.infotext{
+    display: flex;
+    margin-right: 35%;
+    border: 1px solid black;
+    width: 100%;
+}
+.flex-container img{
+    max-width: 100%;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.button button {
+    background-color: green;
+    text-decoration-color: white;
+    border:none;
+    cursor: pointer;
+    width: 25%;
+    padding: 4%;
+    
+    
+}
+
+.button button:hover{
+    color:white;
+    background-color: red;
+
+}
+
+
